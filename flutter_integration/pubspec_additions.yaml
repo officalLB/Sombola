@@ -1,0 +1,16 @@
+# Add these to your pubspec.yaml
+
+dependencies:
+	http: ^1.2.2
+	image_picker: ^1.1.2
+	flutter_localizations:
+		sdk: flutter
+	intl: ^0.19.0
+
+# iOS/Android permissions (add to platforms as needed)
+# Android: android/app/src/main/AndroidManifest.xml
+#   <uses-permission android:name="android.permission.CAMERA" />
+#   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+# iOS: ios/Runner/Info.plist
+#   NSCameraUsageDescription
+#   NSPhotoLibraryUsageDescription
