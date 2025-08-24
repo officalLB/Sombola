@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'pages/home_page.dart';
 import 'pages/about_page.dart';
 
@@ -22,6 +23,11 @@ class SombolaApp extends StatelessWidget {
 			routes: {
 				'/about': (_) => const AboutPage(),
 			},
+			localizationsDelegates: const [
+				GlobalMaterialLocalizations.delegate,
+				GlobalWidgetsLocalizations.delegate,
+				GlobalCupertinoLocalizations.delegate,
+			],
 			supportedLocales: const [
 				Locale('en'),
 				Locale('fr'),
